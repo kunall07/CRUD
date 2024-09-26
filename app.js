@@ -6,7 +6,7 @@ const alienRouter = require('./routes/aliens')
 
 // const url = 'mongodb://127.0.0.1:27017/cbit'
 // const url = 'mongodb://127.0.0.1:27020,127.0.0.1:27021,127.0.0.1:27022/cbitit1?replicaSet=m101';
-const url ="mongodb+srv://kunall7776:kunall07@cluster0.qymdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const url ="mongodb+srv://kunall7776:<db_password>@cluster0.qymdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 const app = express()
 mongoose.connect(url)
 const con = mongoose.connection
